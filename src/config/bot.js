@@ -9,7 +9,7 @@ export const botConfig = {
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
-  presence: {
+  presence: {online}
     // Current online state shown on Discord.
     status: "online",
 
@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Roblox",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 1,
       },
     ],
   },
